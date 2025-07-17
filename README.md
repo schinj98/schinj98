@@ -304,15 +304,15 @@
     <table style="color: #FFFFFF; width: 100%;">
       <tr>
         <td><strong>📧 Email:</strong> schinj98@gmail.com</td>
-        <td><strong>💼 LinkedIn:</strong> /in/sachin-jangid-972b23270</td>
+        <td><strong>💼 LinkedIn:</strong> /in/schinj98</td>
       </tr>
       <tr>
-        <td><strong>🌐 Portfolio:</strong> shieldnetvpn.in</td>
+        <td><strong>🌐 Portfolio:</strong> sachin-jangid.vercel.app</td>
         <td><strong>🏆 LeetCode:</strong> /u/schinjangid/</td>
       </tr>
       <tr>
         <td><strong>💡 Status:</strong> <span style="color: #6BCF7F;">OPEN FOR OPPORTUNITIES</span></td>
-        <td><strong>🚀 Notice:</strong> <span style="color: #FFD93D;">Immediate/Negotiable</span></td>
+        <td><strong>🚀 Notice:</strong> <span style="color: #FFD93D;">Negotiable</span></td>
       </tr>
     </table>
   </div>
