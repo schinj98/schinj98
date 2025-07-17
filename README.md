@@ -256,29 +256,6 @@
 
 ---
 
-## 🌟 TESTIMONIALS & REVIEWS
-
-<div align="center">
-  <table>
-    <tr>
-      <td style="background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%); padding: 20px; border-radius: 15px; margin: 10px;">
-        <h4 style="color: #FFD93D;">💬 Senior Developer, Tech Corp</h4>
-        <p style="color: #FFFFFF; font-style: italic;">"Sachin's code is poetry in motion. Clean, efficient, and innovative!"</p>
-      </td>
-      <td style="background: linear-gradient(135deg, #fa709a 0%, #fee140 100%); padding: 20px; border-radius: 15px; margin: 10px;">
-        <h4 style="color: #FF6B6B;">💬 Project Manager, StartupXYZ</h4>
-        <p style="color: #FFFFFF; font-style: italic;">"Best problem solver I've worked with. Turns complex challenges into elegant solutions."</p>
-      </td>
-      <td style="background: linear-gradient(135deg, #a8edea 0%, #fed6e3 100%); padding: 20px; border-radius: 15px; margin: 10px;">
-        <h4 style="color: #FF6B6B;">💬 Lead Engineer, DevCompany</h4>
-        <p style="color: #333; font-style: italic;">"His full-stack expertise and attention to detail is remarkable."</p>
-      </td>
-    </tr>
-  </table>
-</div>
-
----
-
 ## 🎯 CONNECT WITH THE DEVELOPER
 
 <div align="center" style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); padding: 30px; border-radius: 20px;">
