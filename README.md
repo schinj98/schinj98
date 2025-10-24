@@ -1,319 +1,456 @@
-# 🌟 SACHIN JANGID - Full Stack Developer
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sachin Jangid - Software Developer</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
 
-<div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=0,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30&height=300&section=header&text=Welcome%20to%20my%20Digital%20Universe&fontSize=45&fontColor=fff&animation=fadeIn&fontAlignY=35&desc=Where%20Innovation%20Meets%20Excellence&descAlignY=60&descAlign=50" width="100%"/>
-</div>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #0f0f1e 0%, #1a1a2e 50%, #16213e 100%);
+            color: #e4e4e7;
+            line-height: 1.6;
+            min-height: 100vh;
+            padding: 20px;
+        }
 
-<div align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=28&duration=3000&pause=1000&color=00F5FF&center=true&vCenter=true&width=1000&height=60&lines=🚀+Full+Stack+Developer+%7C+Java+Backend+Expert;💡+Building+FormSignature.com+%26+ShieldNetVPN.in;⚡+System+Architect+%7C+Problem+Solver;🎯+Open+for+Exciting+Opportunities!" />
-</div>
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
 
----
+        .header {
+            text-align: center;
+            padding: 60px 20px;
+            background: linear-gradient(135deg, rgba(99, 102, 241, 0.1) 0%, rgba(139, 92, 246, 0.1) 100%);
+            border-radius: 20px;
+            border: 1px solid rgba(99, 102, 241, 0.2);
+            margin-bottom: 40px;
+            position: relative;
+            overflow: hidden;
+        }
 
-## 🎮 DEVELOPER COMBAT STATS
+        .header::before {
+            content: '';
+            position: absolute;
+            top: -50%;
+            left: -50%;
+            width: 200%;
+            height: 200%;
+            background: radial-gradient(circle, rgba(99, 102, 241, 0.1) 0%, transparent 70%);
+            animation: pulse 4s ease-in-out infinite;
+        }
 
-<div align="center">
-  <table>
-    <tr>
-      <td align="center" style="background: linear-gradient(45deg, #FF6B6B, #4ECDC4); padding: 20px; border-radius: 15px;">
-        <img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif" width="60"><br>
-        <h3 style="color: #FFD93D;">⚡ ACTIVE PROJECTS</h3>
-        <h2 style="color: #6BCF7F;">5+ LIVE</h2>
-      </td>
-      <td align="center" style="background: linear-gradient(45deg, #4ECDC4, #45B7D1); padding: 20px; border-radius: 15px;">
-        <img src="https://media.giphy.com/media/VTtANKl0beDFQRLDTh/giphy.gif" width="60"><br>
-        <h3 style="color: #FFD93D;">🛠️ TECH MASTERY</h3>
-        <h2 style="color: #6BCF7F;">10+ SKILLS</h2>
-      </td>
-      <td align="center" style="background: linear-gradient(45deg, #45B7D1, #96CEB4); padding: 20px; border-radius: 15px;">
-        <img src="https://media.giphy.com/media/du3J3cXyzhj75IOgvA/giphy.gif" width="60"><br>
-        <h3 style="color: #FFD93D;">💼 EXPERIENCE</h3>
-        <h2 style="color: #6BCF7F;">2+ YEARS</h2>
-      </td>
-      <td align="center" style="background: linear-gradient(45deg, #96CEB4, #FFEAA7); padding: 20px; border-radius: 15px;">
-        <img src="https://media.giphy.com/media/l46Cy1rHbQ92uuLXa/giphy.gif" width="60"><br>
-        <h3 style="color: #FF6B6B;">🏆 ACHIEVEMENTS</h3>
-        <h2 style="color: #6BCF7F;">EXPERT</h2>
-      </td>
-    </tr>
-  </table>
-</div>
+        @keyframes pulse {
+            0%, 100% { transform: scale(1); opacity: 0.5; }
+            50% { transform: scale(1.1); opacity: 0.8; }
+        }
 
----
+        .header-content {
+            position: relative;
+            z-index: 1;
+        }
 
-## 💻 DEVELOPER MATRIX - LIVE STATS
+        h1 {
+            font-size: 3.5rem;
+            font-weight: 700;
+            background: linear-gradient(135deg, #6366f1 0%, #8b5cf6 50%, #d946ef 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            margin-bottom: 15px;
+        }
 
-<div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=schinj98&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=00F5FF&icon_color=FF6B6B&text_color=FFFFFF&count_private=true&include_all_commits=true&custom_title=⚡%20GITHUB%20COMBAT%20STATS" width="49%" />
-  <img src="https://github-readme-streak-stats.herokuapp.com?user=schinj98&theme=tokyonight&hide_border=true&background=0D1117&stroke=00F5FF&ring=FF6B6B&fire=FFD93D&currStreakLabel=00F5FF&sideNums=FFFFFF&currStreakNum=FFD93D&dates=FFFFFF&sideLabels=FFFFFF" width="49%" />
-</div>
+        .tagline {
+            font-size: 1.2rem;
+            color: #a1a1aa;
+            margin-bottom: 20px;
+        }
 
-<div align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=schinj98&bg_color=0D1117&color=00F5FF&line=FF6B6B&point=FFD93D&area_color=6BCF7F&area=true&hide_border=true&custom_title=🔥%20CODING%20BATTLEFIELD%20-%20CONTRIBUTION%20HEATMAP" width="100%" />
-</div>
+        .bio {
+            font-size: 1rem;
+            color: #d4d4d8;
+            max-width: 800px;
+            margin: 20px auto;
+            line-height: 1.8;
+        }
 
----
+        .links {
+            display: flex;
+            gap: 15px;
+            justify-content: center;
+            flex-wrap: wrap;
+            margin-top: 25px;
+        }
 
-## 🎯 SKILL ARSENAL & BATTLE LOADOUT
+        .link-btn {
+            padding: 10px 25px;
+            background: rgba(99, 102, 241, 0.1);
+            border: 1px solid #6366f1;
+            border-radius: 8px;
+            color: #6366f1;
+            text-decoration: none;
+            font-weight: 500;
+            transition: all 0.3s ease;
+        }
 
-<div align="center">
-  <table>
-    <tr>
-      <td width="50%" style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); padding: 20px; border-radius: 15px;">
-        <h3 style="color: #FFD93D;">🔥 COMBAT SKILLS</h3>
-        <div style="color: #FFFFFF;">
-          <p>Java           <span style="color: #00F5FF;">████████████████████</span>  <span style="color: #6BCF7F;">95%</span></p>
-          <p>Spring Boot    <span style="color: #00F5FF;">██████████████████</span>    <span style="color: #6BCF7F;">90%</span></p>
-          <p>JavaScript     <span style="color: #00F5FF;">████████████████</span>      <span style="color: #6BCF7F;">85%</span></p>
-          <p>React          <span style="color: #00F5FF;">███████████████</span>       <span style="color: #6BCF7F;">80%</span></p>
-          <p>Python         <span style="color: #00F5FF;">████████████</span>          <span style="color: #6BCF7F;">75%</span></p>
-          <p>System Design  <span style="color: #00F5FF;">████████████████████</span>  <span style="color: #6BCF7F;">95%</span></p>
-        </div>
-      </td>
-      <td width="50%" style="background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%); padding: 20px; border-radius: 15px;">
-        <h3 style="color: #FFD93D;">⚡ PERFORMANCE METRICS</h3>
-        <div style="color: #FFFFFF;">
-          <p>🎯 Focus Level        <span style="color: #00F5FF;">████████████████████</span>  <span style="color: #6BCF7F;">98%</span></p>
-          <p>🚀 Code Quality       <span style="color: #00F5FF;">████████████████████</span>  <span style="color: #6BCF7F;">96%</span></p>
-          <p>🧠 Problem Solving    <span style="color: #00F5FF;">████████████████████</span>  <span style="color: #6BCF7F;">99%</span></p>
-          <p>💡 Innovation         <span style="color: #00F5FF;">██████████████████</span>    <span style="color: #6BCF7F;">92%</span></p>
-          <p>🛠️ Technical Skills   <span style="color: #00F5FF;">████████████████████</span>  <span style="color: #6BCF7F;">94%</span></p>
-          <p>🤝 Team Collaboration <span style="color: #00F5FF;">██████████████████</span>    <span style="color: #6BCF7F;">96%</span></p>
-        </div>
-      </td>
-    </tr>
-  </table>
-</div>
+        .link-btn:hover {
+            background: rgba(99, 102, 241, 0.2);
+            transform: translateY(-2px);
+            box-shadow: 0 5px 20px rgba(99, 102, 241, 0.3);
+        }
 
----
+        .section {
+            background: rgba(255, 255, 255, 0.03);
+            border: 1px solid rgba(99, 102, 241, 0.2);
+            border-radius: 15px;
+            padding: 35px;
+            margin-bottom: 30px;
+            transition: all 0.3s ease;
+        }
 
-## 🚀 LEGENDARY PROJECTS SHOWCASE
+        .section:hover {
+            border-color: rgba(99, 102, 241, 0.4);
+            box-shadow: 0 8px 30px rgba(99, 102, 241, 0.15);
+        }
 
-<div align="center">
-  <table>
-    <tr>
-      <td width="50%" style="background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%); padding: 20px; border-radius: 15px;">
-        <h3 style="color: #FFD93D;">🖊️ FORMSIGNATURE.COM</h3>
-        <img src="https://github-readme-stats.vercel.app/api/pin/?username=schinj98&repo=formsignature&theme=tokyonight&hide_border=true&bg_color=000000&title_color=00F5FF&text_color=FFFFFF&icon_color=FF6B6B" width="100%" />
-        <div style="color: #FFFFFF; text-align: left;">
-          <p>🎯 <strong>Mission:</strong> Revolutionary Digital Signature Platform</p>
-          <p>⚡ <strong>Tech Stack:</strong> JavaScript, Canvas API, Advanced CSS</p>
-          <p>🔥 <strong>Features:</strong> Real-time signature creation, PNG export</p>
-          <p>📊 <strong>Impact:</strong> <span style="color: #6BCF7F;">1000+ daily users</span></p>
-          <p>🏆 <strong>Status:</strong> <span style="color: #FFD93D;">🟢 LIVE & DOMINATING</span></p>
-        </div>
-      </td>
-      <td width="50%" style="background: linear-gradient(135deg, #fa709a 0%, #fee140 100%); padding: 20px; border-radius: 15px;">
-        <h3 style="color: #FF6B6B;">🛡️ SHIELDNETVPN.IN</h3>
-        <img src="https://github-readme-stats.vercel.app/api/pin/?username=schinj98&repo=shieldnetvpn&theme=tokyonight&hide_border=true&bg_color=000000&title_color=00F5FF&text_color=FFFFFF&icon_color=FF6B6B" width="100%" />
-        <div style="color: #FFFFFF; text-align: left;">
-          <p>🎯 <strong>Mission:</strong> Next-Gen VPN Security Platform</p>
-          <p>⚡ <strong>Tech Stack:</strong> Java, Spring Boot, Advanced Security</p>
-          <p>🔥 <strong>Features:</strong> Military-grade encryption, User dashboard</p>
-          <p>📊 <strong>Impact:</strong> <span style="color: #6BCF7F;">500+ protected users</span></p>
-          <p>🏆 <strong>Status:</strong> <span style="color: #FFD93D;">🟢 LIVE & PROTECTING</span></p>
-        </div>
-      </td>
-    </tr>
-  </table>
-</div>
+        h2 {
+            font-size: 2rem;
+            margin-bottom: 25px;
+            color: #6366f1;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
 
-<div align="center">
-  <table>
-    <tr>
-      <td width="50%" style="background: linear-gradient(135deg, #a8edea 0%, #fed6e3 100%); padding: 20px; border-radius: 15px;">
-        <h3 style="color: #FF6B6B;">🎮 ARCADE TRACKER</h3>
-        <img src="https://github-readme-stats.vercel.app/api/pin/?username=schinj98&repo=arcadeTracker&theme=tokyonight&hide_border=true&bg_color=000000&title_color=00F5FF&text_color=FFFFFF&icon_color=FF6B6B" width="100%" />
-        <div style="color: #333; text-align: left;">
-          <p>🎯 <strong>Mission:</strong> Ultimate Gaming Activity Tracker</p>
-          <p>⚡ <strong>Tech Stack:</strong> React, Python, Advanced Analytics</p>
-          <p>🔥 <strong>Features:</strong> Real-time tracking, Achievement system</p>
-          <p>📊 <strong>Impact:</strong> <span style="color: #6BCF7F;">200+ active gamers</span></p>
-          <p>🏆 <strong>Status:</strong> <span style="color: #FFD93D;">🟡 BETA & EVOLVING</span></p>
-        </div>
-      </td>
-      <td width="50%" style="background: linear-gradient(135deg, #ffecd2 0%, #fcb69f 100%); padding: 20px; border-radius: 15px;">
-        <h3 style="color: #FF6B6B;">🌡️ ACWALLAH PLATFORM</h3>
-        <img src="https://github-readme-stats.vercel.app/api/pin/?username=schinj98&repo=acwallah&theme=tokyonight&hide_border=true&bg_color=000000&title_color=00F5FF&text_color=FFFFFF&icon_color=FF6B6B" width="100%" />
-        <div style="color: #333; text-align: left;">
-          <p>🎯 <strong>Mission:</strong> Smart AC Servicing Ecosystem</p>
-          <p>⚡ <strong>Tech Stack:</strong> Node.js, JavaScript, Database</p>
-          <p>🔥 <strong>Features:</strong> Smart booking, Service tracking</p>
-          <p>📊 <strong>Impact:</strong> <span style="color: #6BCF7F;">100+ monthly bookings</span></p>
-          <p>🏆 <strong>Status:</strong> <span style="color: #FFD93D;">🟢 LIVE & SERVING</span></p>
-        </div>
-      </td>
-    </tr>
-  </table>
-</div>
+        h2::before {
+            content: '';
+            width: 4px;
+            height: 30px;
+            background: linear-gradient(180deg, #6366f1 0%, #8b5cf6 100%);
+            border-radius: 2px;
+        }
 
----
+        .tech-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 15px;
+            margin-top: 20px;
+        }
 
-## 🎯 TECHNOLOGY ARSENAL
+        .tech-item {
+            background: rgba(99, 102, 241, 0.05);
+            padding: 15px 20px;
+            border-radius: 10px;
+            border: 1px solid rgba(99, 102, 241, 0.15);
+            transition: all 0.3s ease;
+        }
 
-<div align="center" style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); padding: 30px; border-radius: 20px; margin: 20px 0;">
-  <h3 style="color: #FFD93D; font-size: 24px;">💻 PROGRAMMING LANGUAGES & FRAMEWORKS</h3>
-  <img src="https://skillicons.dev/icons?i=java,js,python,react,nodejs,spring,html,css,mysql,postgresql,mongodb,git,github,vscode,idea,postman,docker,linux,aws&perline=10" />
-</div>
+        .tech-item:hover {
+            background: rgba(99, 102, 241, 0.1);
+            border-color: #6366f1;
+            transform: translateX(5px);
+        }
 
-<div align="center">
-  <table>
-    <tr>
-      <td style="background: linear-gradient(45deg, #FF6B6B, #4ECDC4); padding: 15px; border-radius: 10px; margin: 5px;">
-        <img src="https://img.shields.io/badge/Spring%20Boot-6DB33F?style=for-the-badge&logo=spring-boot&logoColor=white" />
-      </td>
-      <td style="background: linear-gradient(45deg, #4ECDC4, #45B7D1); padding: 15px; border-radius: 10px; margin: 5px;">
-        <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" />
-      </td>
-      <td style="background: linear-gradient(45deg, #45B7D1, #96CEB4); padding: 15px; border-radius: 10px; margin: 5px;">
-        <img src="https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white" />
-      </td>
-      <td style="background: linear-gradient(45deg, #96CEB4, #FFEAA7); padding: 15px; border-radius: 10px; margin: 5px;">
-        <img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white" />
-      </td>
-    </tr>
-    <tr>
-      <td style="background: linear-gradient(45deg, #FFEAA7, #DDA0DD); padding: 15px; border-radius: 10px; margin: 5px;">
-        <img src="https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white" />
-      </td>
-      <td style="background: linear-gradient(45deg, #DDA0DD, #98D8C8); padding: 15px; border-radius: 10px; margin: 5px;">
-        <img src="https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white" />
-      </td>
-      <td style="background: linear-gradient(45deg, #98D8C8, #F7DC6F); padding: 15px; border-radius: 10px; margin: 5px;">
-        <img src="https://img.shields.io/badge/Docker-2CA5E0?style=for-the-badge&logo=docker&logoColor=white" />
-      </td>
-      <td style="background: linear-gradient(45deg, #F7DC6F, #BB8FCE); padding: 15px; border-radius: 10px; margin: 5px;">
-        <img src="https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazonaws&logoColor=white" />
-      </td>
-    </tr>
-  </table>
-</div>
+        .tech-label {
+            font-weight: 600;
+            color: #8b5cf6;
+            margin-bottom: 8px;
+            font-size: 0.9rem;
+        }
 
----
+        .tech-values {
+            color: #d4d4d8;
+            font-size: 0.95rem;
+        }
 
-## 🏆 ACHIEVEMENT HALL OF FAME
+        .experience-card, .project-card {
+            background: rgba(139, 92, 246, 0.05);
+            padding: 25px;
+            border-radius: 12px;
+            border-left: 4px solid #8b5cf6;
+            margin-bottom: 20px;
+            transition: all 0.3s ease;
+        }
 
-<div align="center" style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); padding: 30px; border-radius: 20px;">
-  <img src="https://github-profile-trophy.vercel.app/?username=schinj98&theme=tokyonight&no-frame=true&no-bg=true&margin-w=4&row=3&column=4&rank=SECRET,SSS,SS,S,AAA,AA,A,B,C" width="100%" />
-</div>
+        .experience-card:hover, .project-card:hover {
+            background: rgba(139, 92, 246, 0.1);
+            transform: translateX(10px);
+        }
 
----
+        .card-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: start;
+            margin-bottom: 15px;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
 
-## 📊 REAL-TIME ANALYTICS DASHBOARD
+        .card-title {
+            font-size: 1.4rem;
+            color: #e4e4e7;
+            font-weight: 600;
+        }
 
-<div align="center">
-  <table>
-    <tr>
-      <td width="50%" style="background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%); padding: 20px; border-radius: 15px;">
-        <h3 style="color: #FFD93D;">📈 CODING INTENSITY</h3>
-        <div style="color: #FFFFFF; text-align: left;">
-          <p>Monday     <span style="color: #6BCF7F;">████████████████████</span>  <span style="color: #FFD93D;">8.5 hrs</span></p>
-          <p>Tuesday    <span style="color: #6BCF7F;">██████████████████</span>    <span style="color: #FFD93D;">7.2 hrs</span></p>
-          <p>Wednesday  <span style="color: #6BCF7F;">████████████████████</span>  <span style="color: #FFD93D;">9.1 hrs</span></p>
-          <p>Thursday   <span style="color: #6BCF7F;">██████████████████</span>    <span style="color: #FFD93D;">7.8 hrs</span></p>
-          <p>Friday     <span style="color: #6BCF7F;">████████████████</span>      <span style="color: #FFD93D;">6.4 hrs</span></p>
-          <p>Saturday   <span style="color: #6BCF7F;">████████████</span>          <span style="color: #FFD93D;">4.3 hrs</span></p>
-          <p>Sunday     <span style="color: #6BCF7F;">████████</span>              <span style="color: #FFD93D;">3.7 hrs</span></p>
-        </div>
-      </td>
-      <td width="50%" style="background: linear-gradient(135deg, #fa709a 0%, #fee140 100%); padding: 20px; border-radius: 15px;">
-        <h3 style="color: #FF6B6B;">🎯 LANGUAGE MASTERY</h3>
-        <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=schinj98&layout=compact&theme=tokyonight&hide_border=true&bg_color=transparent&title_color=FFFFFF&text_color=FFFFFF&langs_count=8" width="100%" />
-      </td>
-    </tr>
-  </table>
-</div>
+        .card-meta {
+            color: #a1a1aa;
+            font-size: 0.9rem;
+        }
 
----
+        .card-tech {
+            display: inline-block;
+            background: rgba(99, 102, 241, 0.15);
+            padding: 5px 12px;
+            border-radius: 6px;
+            font-size: 0.85rem;
+            color: #a5b4fc;
+            margin-bottom: 15px;
+            border: 1px solid rgba(99, 102, 241, 0.3);
+        }
 
-## 🔥 LIVE PROJECT MONITOR
+        .card-points {
+            list-style: none;
+            padding-left: 0;
+        }
 
-<div align="center" style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); padding: 30px; border-radius: 20px;">
-  <h3 style="color: #FFD93D; font-size: 24px;">📊 REAL-TIME SYSTEM STATUS</h3>
-  <table style="width: 100%; color: #FFFFFF;">
-    <tr>
-      <td style="padding: 15px; background: rgba(0, 245, 255, 0.1); border-radius: 10px; margin: 10px;">
-        <h4 style="color: #00F5FF;">🌐 FormSignature.com</h4>
-        <p><span style="color: #6BCF7F;">🟢 ONLINE</span> | 99.9% uptime | <span style="color: #FFD93D;">1.2K daily users</span></p>
-      </td>
-      <td style="padding: 15px; background: rgba(255, 107, 107, 0.1); border-radius: 10px; margin: 10px;">
-        <h4 style="color: #FF6B6B;">🛡️ ShieldNetVPN.in</h4>
-        <p><span style="color: #6BCF7F;">🟢 ONLINE</span> | 99.8% uptime | <span style="color: #FFD93D;">500 active users</span></p>
-      </td>
-    </tr>
-    <tr>
-      <td style="padding: 15px; background: rgba(255, 217, 61, 0.1); border-radius: 10px; margin: 10px;">
-        <h4 style="color: #FFD93D;">🎮 ArcadeTracker</h4>
-        <p><span style="color: #FFD93D;">🟡 BETA</span> | 95.0% uptime | <span style="color: #6BCF7F;">200 beta testers</span></p>
-      </td>
-      <td style="padding: 15px; background: rgba(107, 207, 127, 0.1); border-radius: 10px; margin: 10px;">
-        <h4 style="color: #6BCF7F;">🌡️ ACWallah Platform</h4>
-        <p><span style="color: #6BCF7F;">🟢 ONLINE</span> | 98.9% uptime | <span style="color: #FFD93D;">100 daily bookings</span></p>
-      </td>
-    </tr>
-  </table>
-</div>
+        .card-points li {
+            padding-left: 25px;
+            margin-bottom: 10px;
+            position: relative;
+            color: #d4d4d8;
+        }
 
----
+        .card-points li::before {
+            content: '▹';
+            position: absolute;
+            left: 0;
+            color: #6366f1;
+            font-weight: bold;
+            font-size: 1.2rem;
+        }
 
-## 🎯 CONNECT WITH THE DEVELOPER
+        .stats-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+            margin-top: 20px;
+        }
 
-<div align="center" style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); padding: 30px; border-radius: 20px;">
-  <h3 style="color: #FFD93D; font-size: 24px;">🌐 DEVELOPER NETWORK</h3>
-  
-  <div style="margin: 20px 0;">
-    <a href="https://linkedin.com/in/sachin-jangid-972b23270">
-      <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=FF6B6B" />
-    </a>
-    <a href="https://leetcode.com/u/schinjangid/">
-      <img src="https://img.shields.io/badge/LeetCode-FFA116?style=for-the-badge&logo=leetcode&logoColor=black&labelColor=00F5FF" />
-    </a>
-    <a href="https://shieldnetvpn.in">
-      <img src="https://img.shields.io/badge/Portfolio-FF6B6B?style=for-the-badge&logo=firefox&logoColor=white&labelColor=6BCF7F" />
-    </a>
-    <a href="mailto:schinj98@gmail.com">
-      <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white&labelColor=FFD93D" />
-    </a>
-  </div>
+        .stat-card {
+            background: linear-gradient(135deg, rgba(99, 102, 241, 0.1) 0%, rgba(139, 92, 246, 0.1) 100%);
+            padding: 25px;
+            border-radius: 12px;
+            border: 1px solid rgba(99, 102, 241, 0.2);
+            text-align: center;
+            transition: all 0.3s ease;
+        }
 
-  <div style="background: rgba(255, 255, 255, 0.1); padding: 20px; border-radius: 15px; margin: 20px 0;">
-    <h4 style="color: #00F5FF;">📞 RECRUITMENT HOTLINE</h4>
-    <table style="color: #FFFFFF; width: 100%;">
-      <tr>
-        <td><strong>📧 Email:</strong> schinj98@gmail.com</td>
-        <td><strong>💼 LinkedIn:</strong> /in/schinj98</td>
-      </tr>
-      <tr>
-        <td><strong>🌐 Portfolio:</strong> sachin-jangid.vercel.app</td>
-        <td><strong>🏆 LeetCode:</strong> /u/schinjangid/</td>
-      </tr>
-      <tr>
-        <td><strong>💡 Status:</strong> <span style="color: #6BCF7F;">OPEN FOR OPPORTUNITIES</span></td>
-        <td><strong>🚀 Notice:</strong> <span style="color: #FFD93D;">Negotiable</span></td>
-      </tr>
-    </table>
-  </div>
-</div>
+        .stat-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 30px rgba(99, 102, 241, 0.2);
+        }
 
----
+        .stat-number {
+            font-size: 2.5rem;
+            font-weight: 700;
+            background: linear-gradient(135deg, #6366f1 0%, #8b5cf6 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
 
-## 🎊 VISITOR ANALYTICS
+        .stat-label {
+            color: #a1a1aa;
+            font-size: 0.95rem;
+            margin-top: 5px;
+        }
 
-<div align="center">
-  <img src="https://komarev.com/ghpvc/?username=schinj98&label=Profile%20Views&color=FF6B6B&style=for-the-badge&labelColor=00F5FF" />
-  <img src="https://img.shields.io/github/followers/schinj98?label=Followers&style=for-the-badge&color=6BCF7F&labelColor=FFD93D" />
-</div>
+        .achievement-list {
+            list-style: none;
+            padding: 0;
+        }
 
-<div align="center" style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); padding: 20px; border-radius: 15px; margin: 20px 0;">
-  <h3 style="color: #FFD93D;">🎮 DEVELOPER SIGNATURE</h3>
-  <p style="color: #FFFFFF; font-size: 18px;">
-    🚀 <em>Crafted with ❤️ by Sachin Jangid</em><br>
-    ⚡ <em>"Code is not just my profession, it's my passion!"</em><br>
-    🎯 <em>Let's build something amazing together!</em>
-  </p>
-  <img src="https://media.giphy.com/media/LnQjpWaON8nhr21vNW/giphy.gif" width="60">
-</div>
+        .achievement-list li {
+            background: rgba(34, 197, 94, 0.1);
+            padding: 15px 20px;
+            margin-bottom: 12px;
+            border-radius: 10px;
+            border-left: 3px solid #22c55e;
+            color: #d4d4d8;
+            transition: all 0.3s ease;
+        }
 
-<div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=0,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30&height=120&section=footer&animation=fadeIn" width="100%"/>
-</div>
+        .achievement-list li:hover {
+            background: rgba(34, 197, 94, 0.15);
+            transform: translateX(10px);
+        }
+
+        .footer {
+            text-align: center;
+            padding: 40px 20px;
+            color: #71717a;
+            font-size: 0.95rem;
+            margin-top: 40px;
+        }
+
+        .footer-highlight {
+            color: #6366f1;
+            font-weight: 600;
+        }
+
+        @media (max-width: 768px) {
+            h1 {
+                font-size: 2.5rem;
+            }
+
+            .section {
+                padding: 25px;
+            }
+
+            .tech-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .card-header {
+                flex-direction: column;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <div class="header-content">
+                <h1>Sachin Jangid</h1>
+                <p class="tagline">Software Developer • Competitive Programmer • Full-Stack Engineer</p>
+                <p class="bio">Building scalable systems and solving complex problems through code. Fourth-year B.Tech student with 7.6 CGPA, specializing in high-performance applications and distributed systems.</p>
+                <div class="links">
+                    <a href="mailto:Sachinreal2003@gmail.com" class="link-btn">Email</a>
+                    <a href="#" class="link-btn">LinkedIn</a>
+                    <a href="#" class="link-btn">GitHub</a>
+                    <a href="#" class="link-btn">LeetCode</a>
+                    <a href="#" class="link-btn">CodeChef</a>
+                </div>
+            </div>
+        </header>
+
+        <section class="section">
+            <h2>Technical Arsenal</h2>
+            <div class="tech-grid">
+                <div class="tech-item">
+                    <div class="tech-label">Languages</div>
+                    <div class="tech-values">Java • Python • JavaScript • SQL • Node.js</div>
+                </div>
+                <div class="tech-item">
+                    <div class="tech-label">Backend</div>
+                    <div class="tech-values">Spring Boot • REST APIs • Flask • MySQL</div>
+                </div>
+                <div class="tech-item">
+                    <div class="tech-label">Frontend</div>
+                    <div class="tech-values">Next.js • React • Tailwind CSS</div>
+                </div>
+                <div class="tech-item">
+                    <div class="tech-label">DevOps & Tools</div>
+                    <div class="tech-values">Docker • AWS EC2 • Git • Maven • JUnit • CI/CD</div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section">
+            <h2>Competitive Programming</h2>
+            <div class="stats-grid">
+                <div class="stat-card">
+                    <div class="stat-number">1814</div>
+                    <div class="stat-label">LeetCode Rating (Knight)</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-number">261</div>
+                    <div class="stat-label">Rank in Weekly Contest 451</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-number">750+</div>
+                    <div class="stat-label">Problems Solved</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-number">81.6%</div>
+                    <div class="stat-label">TCS ION NQT Score</div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section">
+            <h2>Professional Experience</h2>
+            <div class="experience-card">
+                <div class="card-header">
+                    <div>
+                        <div class="card-title">Software Developer Intern @ Berrily</div>
+                        <div class="card-meta">Mumbai, Maharashtra</div>
+                    </div>
+                    <div class="card-meta">June 2025 - August 2025</div>
+                </div>
+                <ul class="card-points">
+                    <li>Developed production-grade authentication modules with secure API implementations</li>
+                    <li>Optimized MySQL database queries improving performance significantly</li>
+                    <li>Built responsive frontends using React and Next.js with Python backend integration</li>
+                    <li>Collaborated on real-world problem-solving in an agile development environment</li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="section">
+            <h2>Featured Projects</h2>
+            
+            <div class="project-card">
+                <div class="card-header">
+                    <div class="card-title">Automated WireGuard VPN Platform</div>
+                    <div class="card-meta">Jan 2025 - Mar 2025</div>
+                </div>
+                <div class="card-tech">Java • Spring Boot • MySQL • JWT • AWS EC2 • JUnit</div>
+                <ul class="card-points">
+                    <li>Built scalable distributed system on AWS EC2 for automated VPN configuration generation</li>
+                    <li>Architected microservice infrastructure handling 100+ concurrent users</li>
+                    <li>Achieved sub-200ms response times through optimized AWS EC2 deployment</li>
+                    <li>Implemented JWT-based authentication with fault-tolerant design patterns</li>
+                    <li>Comprehensive unit testing suite using JUnit ensuring API reliability</li>
+                </ul>
+            </div>
+
+            <div class="project-card">
+                <div class="card-header">
+                    <div class="card-title">ArcadeTrack - GCP Analysis Dashboard</div>
+                    <div class="card-meta">Feb 2025 - Present</div>
+                </div>
+                <div class="card-tech">Next.js • Flask • Tailwind CSS • Gunicorn • Vercel</div>
+                <ul class="card-points">
+                    <li>Built high-performance frontend achieving 100% Lighthouse score on Vercel</li>
+                    <li>Engineered Flask API processing 10,000+ profiles with <300ms latency</li>
+                    <li>Implemented intelligent localStorage caching reducing API calls by 80%</li>
+                    <li>Maintained 99.9% uptime through robust error handling and validation</li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="section">
+            <h2>Key Achievements</h2>
+            <ul class="achievement-list">
+                <li>🏆 LeetCode Knight Badge with Contest Rating of 1814 (June 2025)</li>
+                <li>🥈 Secured Rank 261 in LeetCode Weekly Contest 451 among 27,000+ participants</li>
+                <li>💻 Solved 750+ problems across multiple coding platforms</li>
+                <li>📊 Scored 81.6% in TCS ION NQT examination</li>
+            </ul>
+        </section>
+
+        <footer class="footer">
+            <p>Open to <span class="footer-highlight">Full-Stack Development Roles</span> • <span class="footer-highlight">Software Engineering Internships</span> • <span class="footer-highlight">Collaborative Projects</span></p>
+            <p style="margin-top: 15px;">Let's build something amazing together.</p>
+        </footer>
+    </div>
+</body>
+</html>
