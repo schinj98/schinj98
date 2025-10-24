@@ -101,4 +101,92 @@ Fourth-year B.Tech | 7.6 CGPA | Faridabad, Haryana
 ├── Microservice architecture handling 100+ concurrent users
 ├── Sub-200ms response time on AWS EC2
 ├── JWT-based authentication with fault-tolerant design
-└── Comprehen
+└── Comprehensive JUnit testing suite
+```
+
+**Key Metrics:**
+- ⚡ **<200ms** response time
+- 👥 **100+** concurrent users
+- 🛡️ Enterprise-grade security with JWT
+- ✅ Complete unit test coverage
+
+---
+
+### 📊 [ArcadeTrack - GCP Analysis Dashboard](github-link) | [Demo](demo-link)
+**Tech Stack:** `Next.js` `Flask` `Tailwind CSS` `Gunicorn` `Vercel`
+
+```python
+# Real-time Analytics Platform
+├── 100% Lighthouse performance score
+├── Processing 10,000+ profiles with <300ms latency
+├── 80% reduction in API calls via intelligent caching
+└── 99.9% uptime with robust error handling
+```
+
+**Key Metrics:**
+- 🎯 **100%** Lighthouse score
+- ⚡ **<300ms** API latency
+- 📉 **80%** reduction in redundant calls
+- 🔒 **99.9%** uptime reliability
+
+---
+
+## 🎖️ Achievements & Recognition
+
+```diff
++ 🏆 LeetCode Knight Badge | Rating: 1814 (June 2025)
++ 🥈 Rank 261 in LeetCode Weekly Contest 451 (27,000+ participants)
++ 💻 750+ Problems Solved across multiple platforms
++ 📊 81.6% Score in TCS ION NQT Examination
+```
+
+---
+
+## 📈 GitHub Statistics
+
+<div align="center">
+
+<img src="https://github-readme-stats.vercel.app/api?username=yourusername&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=6366f1&icon_color=8b5cf6&text_color=c9d1d9" alt="GitHub Stats" height="180em" />
+
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=yourusername&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=6366f1&text_color=c9d1d9" alt="Top Languages" height="180em" />
+
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=yourusername&theme=tokyonight&hide_border=true&background=0D1117&ring=6366f1&fire=8b5cf6&currStreakLabel=c9d1d9" alt="GitHub Streak" height="180em" />
+
+</div>
+
+---
+
+## 🎯 Current Focus
+
+```javascript
+const currentGoals = {
+  learning: ["Distributed Systems", "Microservices", "Advanced Cloud Patterns"],
+  building: ["ArcadeTrack Platform", "Open Source Contributions"],
+  preparing: ["SDE Roles in Product Companies", "System Design Interviews"],
+  exploring: ["AWS Architecture", "Performance Optimization", "Scalability"]
+};
+```
+
+---
+
+## 🤝 Open For
+
+<div align="center">
+
+[![Full-Stack Development](https://img.shields.io/badge/Full--Stack_Development-00C7B7?style=for-the-badge)](/)
+[![SDE Internships](https://img.shields.io/badge/SDE_Internships-FF6B6B?style=for-the-badge)](/)
+[![Open Source](https://img.shields.io/badge/Open_Source_Collaboration-4ECDC4?style=for-the-badge)](/)
+
+</div>
+
+---
+
+<div align="center">
+
+### 💬 Let's Connect and Build Something Amazing!
+
+**"Code is like humor. When you have to explain it, it's bad."** – Cory House
+
+![Profile Views](https://komarev.com/ghpvc/?username=yourusername&color=blueviolet&style=for-the-badge)
+
+</div>
