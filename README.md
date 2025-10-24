@@ -142,19 +142,6 @@ Fourth-year B.Tech | 7.6 CGPA | Faridabad, Haryana
 
 ---
 
-## 📈 GitHub Statistics
-
-<div align="center">
-
-<img src="https://github-readme-stats.vercel.app/api?username=yourusername&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=6366f1&icon_color=8b5cf6&text_color=c9d1d9" alt="GitHub Stats" height="180em" />
-
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=yourusername&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=6366f1&text_color=c9d1d9" alt="Top Languages" height="180em" />
-
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=yourusername&theme=tokyonight&hide_border=true&background=0D1117&ring=6366f1&fire=8b5cf6&currStreakLabel=c9d1d9" alt="GitHub Streak" height="180em" />
-
-</div>
-
----
 
 ## 🎯 Current Focus
 
@@ -187,6 +174,5 @@ const currentGoals = {
 
 **"Code is like humor. When you have to explain it, it's bad."** – Cory House
 
-![Profile Views](https://komarev.com/ghpvc/?username=yourusername&color=blueviolet&style=for-the-badge)
 
 </div>
